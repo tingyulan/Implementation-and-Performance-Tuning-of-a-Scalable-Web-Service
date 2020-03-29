@@ -1,0 +1,106 @@
+# This is a sample database file
+# Each line is form Category : Element1, Element2, ...
+# or Itemname : ITEM : price : quantity
+# (Element can be a Category or Item)
+# Required category TOPLEVEL
+# extra whitespaces are removed
+# comments begin with # and can occur on same line as an entry
+# an entry must fit on a line
+#
+
+# required TOPLEVEL category
+TOPLEVEL : Jewelry, Electronics, Office Supplies, Pets
+
+# Jewelry Department ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Jewelry : Ring, Necklace, Earring, Bracelet
+Ring: Aquamarine Diamond Fashion Ring, London Blue Topaz Ring, Diamond Square Ring, Diamond Double Halo Ring, Blue Topaz Ring, Two-Tone Blue Diamond Ring, Blue Sapphire Ring, Freshwater Pearl Ring
+Necklace: Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+Earring: Blue Topaz & Pave Diamond Drop Earrings, Scalloped Diamond Halo Earrings, Pave Diamond Wrapped Drop Earrings, Cushion Cut Blue Topaz Earrings, Topaz Stud Earrings, Topaz Leaf Earrings, Green Amethyst Sunburst Earrings, Freshwater Pearl Earring
+Bracelet: Interlinked Diamond Circle Charm Bracelet, Diamond Crossover Detail Bangle, Sterling Silver Diamond Flower Link, Sterling Silver Skinny Pave Diamond Bangle, Diamond Heart Charm Bracelet, Sterling Silver Diamond XOXO Charm Bracelet, Blue Diamond Twisted Circle Link Bracelet
+# ------------ Rings ---------------------------------------------------------
+Aquamarine Diamond Fashion Ring : ITEM : 404.83 : 4721
+London Blue Topaz Ring : ITEM : 518.39 : 3027
+Diamond Square Ring : ITEM : 633.38 : 996
+Diamond Double Halo Ring : ITEM : 429.16 : 4964
+Blue Topaz Ring : ITEM : 559.69 : 2836
+Two-Tone Blue Diamond Ring : ITEM : 344.78 : 1108
+Blue Sapphire Ring : ITEM : 428.67 : 4310
+Freshwater Pearl Ring : ITEM : 328.00 : 1855
+# ------------ Necklaces -----------------------------------------------------
+Teardrop London Blue Topaz Necklace : ITEM : 566.35 : 1498
+Sterling Silver Blue Topaz & Diamond Necklace : ITEM : 535.97 : 3792
+Sky Blue Topaz & Diamond Necklace : ITEM : 656.75 : 2747
+Faceted Heart Shaped Blue Topaz Necklace : ITEM : 601.60 : 1133
+Aquamarine Pendant Necklace : ITEM : 428.56 : 3964
+Diamond Leaf Pendant Necklace : ITEM : 882.18 : 1363
+Diamond Heart Necklace : ITEM : 855.19 : 4335
+Freshwater Pearl Necklace : ITEM : 572.48 : 1848
+# ------------ Earrings ------------------------------------------------------
+Blue Topaz & Pave Diamond Drop Earrings : ITEM : 867.27 : 902
+Scalloped Diamond Halo Earrings : ITEM : 748.83 : 339
+Pave Diamond Wrapped Drop Earrings : ITEM : 699.38 : 1930
+Cushion Cut Blue Topaz Earrings : ITEM : 676.33 : 2949
+Topaz Stud Earrings : ITEM : 566.10 : 1084
+Topaz Leaf Earrings : ITEM : 881.09 : 1918
+Green Amethyst Sunburst Earrings : ITEM : 852.92 : 2819
+Freshwater Pearl Earring : ITEM : 805.65 : 1357
+# ------------ Bracelets -----------------------------------------------------
+Interlinked Diamond Circle Charm Bracelet : ITEM : 602.18 : 3330
+Diamond Crossover Detail Bangle : ITEM : 703.79 : 3142
+Sterling Silver Diamond Flower Link : ITEM : 417.36 : 4586
+Sterling Silver Skinny Pave Diamond Bangle : ITEM : 870.77 : 2803
+Diamond Heart Charm Bracelet : ITEM : 831.25 : 1809
+Sterling Silver Diamond XOXO Charm Bracelet : ITEM : 833.12 : 164
+Blue Diamond Twisted Circle Link Bracelet : ITEM : 691.50 : 252
+
+# Electronics Department ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Electronics : iPad, iPhone, Android Devices, bluetooth headset
+Android Devices : Generic Tablet, Generic Phone
+iPad : ITEM : 400 : 120
+iPhone : ITEM : 600 : 10
+bluetooth headset : ITEM : 50 : 1000
+Generic Tablet : ITEM : 200 : 50
+Generic Phone : ITEM : 300 : 100
+
+# Office Department ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Office Supplies : Writing Instruments, Stationary
+Writing Instruments : pen, No. 2 pencil, typewriter
+pen : ITEM : 1.25 : 1000
+No. 2 pencil : ITEM : 0.20 : 10000
+typewriter : ITEM : 150 : 5
+Stationary : sheet of paper, 500 count paper
+sheet of paper : ITEM : 0.02 : 1000000
+500 count paper: ITEM : 7.00 : 1000
+
+# Pet Department ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pets: goldfish, alpaca, ant farm, bird, cat, dog, ferret, fish, frog, gecko, gerbil, goat, guinea pig, hamster, hedgehog, hermit crab, horse, iguana, mantis, mouse, newt, pig, rabbit, rat, salamander, sheep, snake, spider, stick bug, turtle
+goldfish : ITEM : 5 : 0
+alpaca : ITEM : 406.78 : 2517
+ant farm : ITEM : 223.17 : 2776
+bird : ITEM : 349.99 : 3048
+cat : ITEM : 42.01 : 868
+dog : ITEM : 130.31 : 145
+ferret : ITEM : 189.97 : 1116
+fish : ITEM : 14.24 : 1348
+frog : ITEM : 200.28 : 2054
+gecko : ITEM : 167.14 : 2890
+gerbil : ITEM : 398.56 : 1651
+goat : ITEM : 260.49 : 2828
+guinea pig : ITEM : 204.87 : 1254
+hamster : ITEM : 58.23 : 4510
+hedgehog : ITEM : 432.69 : 4147
+hermit crab : ITEM : 105.45 : 725
+horse : ITEM : 9991.67 : 3889
+iguana : ITEM : 307.43 : 2857
+mantis : ITEM : 101.94 : 1032
+mouse : ITEM : 46.91 : 835
+newt : ITEM : 90.46 : 1275
+pig : ITEM : 355.95 : 2936
+rabbit : ITEM : 146.05 : 839
+rat : ITEM : 50.89 : 3627
+salamander : ITEM : 166.31 : 3034
+sheep : ITEM : 626.42 : 2486
+snake : ITEM : 155.99 : 4452
+spider : ITEM : 265.77 : 2929
+stick bug : ITEM : 35.07 : 4368
+turtle : ITEM : 243.00 : 1329
